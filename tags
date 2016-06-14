@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CALC_H_INCLUDED	calc.h	2;"	d
+CC	Makefile	/^CC = gcc $/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -O -g$/;"	m
+LIST_H_INCLUDED	util/list.h	2;"	d
+OBJS	Makefile	/^OBJS = main.o calc.o$/;"	m
+app	main.c	/^struct app_t app = {$/;"	v	typeref:struct:app_t
+app_t	main.c	/^struct app_t{$/;"	s	file:
+first	util/list.h	/^        node * first;$/;"	m	struct:head
+head	util/list.h	/^    struct head{$/;"	s
+main	main.c	/^int main(int argn, char * argv[]){$/;"	f
+next	util/list.h	/^        node * next;$/;"	m	struct:node
+node	util/list.h	/^`  struct node{$/;"	s
+sum	calc.c	/^int sum(int a, int b){$/;"	f
+test	main.c	/^    void (*test)();$/;"	m	struct:app_t	file:
+test	main.c	/^void test(){$/;"	f
